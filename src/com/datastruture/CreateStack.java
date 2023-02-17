@@ -1,15 +1,13 @@
 package com.datastruture;
 
-import java.util.Stack;
+import java.util.LinkedList;
 
 public class CreateStack {
     public static void main(String[] args) {
-        Stack<Integer>stack = new Stack<>();
-
-        stack.push(56);
-        stack.push(30);
+        LinkedList<Integer> stack = new LinkedList<>();
         stack.push(70);
-        System.out.println("Element in stack:" + stack);
-
+        stack.push(30);
+        stack.push(56);
+        System.out.println(stack);
     }
 }
